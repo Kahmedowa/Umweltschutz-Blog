@@ -13,6 +13,7 @@ h1{
     color: #b9af00;
     font-size: 2.5em;
     text-transform: uppercase;
+    text-shadow: 0px 1px rgb(240, 18, 18);
 }
 .separator {
     border-top:2px solid #0f370f;
@@ -25,6 +26,7 @@ h1{
     text-decoration: none;
 }
 .farbe:hover{
+    font-size:1.1em ;
     color: #b9af00;
 }
 ul, li{
@@ -40,7 +42,11 @@ aside {
 }
 
 #seed{
+    display: inline-block;
     font-size: 40px;
+}
+#seed:hover{
+    font-size:45px;
 }
  img{
     width: 450px;
@@ -98,13 +104,12 @@ article{
 .bold a{
     display: inline-block;
     color: #b9af00;
-    text-decoration: none;
     padding: 10px;
 
 }
 .bold a:hover{
     color: #4e5c46;
-    font-weight: bolder;
+    font-size: 1.1em;
 }
 .bold a:active{
     color: yellow;
