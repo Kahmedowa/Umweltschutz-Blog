@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+font-family: 'Raleway' italic;
+background-color: #C2E0B1;
+}
+main{
+    margin-left: 20px;
+}
+h1{
+    display: inline-block;
+    margin-top: 100px;
+    color: #b9af00;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.separator {
+    border-top:2px solid #0f370f;
+    
+
+}
+.farbe {
+    font-family: 'Raleway';
+    color: #244424;
+    text-decoration: none;
+}
+.farbe:hover{
+    color: #b9af00;
+}
+ul, li{
+    display: inline-block;
+    list-style: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #4e5c46;
+    padding: 5px;
+}
+aside {
+    text-align:right;
+}
+
+#seed{
+    font-size: 40px;
+}
+ img{
+    width: 450px;
+    height: 320px;
+    
+}
+.umwelthilfe:hover{
+    font-weight: bolder;
+    color:#b9af00 ;
+}
+.umwelthilfe:active{
+    color: yellow;
+}
+.umwelthilfe:visited{
+    color: purple;
+}
+.umwelthilfe {
+    font-family: 'Raleway';
+    color: #244424;
+    font-weight: 400;
+    position: relative;
+   bottom: 150px;
+}
+.haupt-div{
+    position: relative;
+    font-family: 'Raleway';
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 19px;
+}
+p{
+    color:#2d472d;
+}
+.erste-div{
+    width: 600px;
+    text-align: justify;
+position: relative;
+left: 470px;
+top: -345px;    
+}
+.zweite-div{
+    position: absolute;
+    top: 315px;
+    width: 1070px;
+    text-align: justify;
+}
+article{
+    text-align: left;
+}
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b9af00;
+}
+.bold a{
+    display: inline-block;
+    color: #b9af00;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.bold a:hover{
+    color: #4e5c46;
+    font-weight: bolder;
+}
+.bold a:active{
+    color: yellow;
+}
+.bold a:visited{
+    color: #8902b7;
+}
